@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.1%;
+}
+
+/* Top date and day section */
+.day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Quote section */
+.quote {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.quote + h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Productivity and Mood */
+.ProdMood {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    margin: 20px 0;
+    padding: 0 10px;
+}
+
+/* Agenda Section */
+.div1, .div2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+/* Thankful for section */
+form {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    gap: 5px;
+}
+textarea {
+    width: 80%;
+    height: 30px;
+    resize: none;
+}
+
+/* Centered headings */
+h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* One thing that sucked */
+.one-sucked {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}

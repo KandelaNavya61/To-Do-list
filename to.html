@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TO-DO LIST</title>
+    <title>TO-DO List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="padding: right 180px; padding-left: 180px;" >
-
-    <div align="center">
+<body>
+    <div class="day">
         <input type="date">
         <input type="time">
         <input placeholder="Day" type="number">
     </div>
-    <div align="center">
+    <div class="quote">
         <p>"If you're going through hell, keep going."</p>
-        <h4>Winston Churchill</h4>
     </div>
+    <h4>Winston Churchill</h4>
     <br>
-    <div style="padding-left: 20%;">
-        Productivity: 
-        <select id="Productivity">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-        </select>
-        <span style="padding-right: 50%;">
+    <div class="ProdMood">
+        <span>
+            <span>Productivity: </span> 
+            <select id="Productivity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </span>
+        <span class="mood">
             <span>Mood: </span>
             <select id="Mood">
                 <option value="0">0</option>
@@ -49,51 +51,29 @@
             </select>
         </span>
     </div>
-    
-    <div align="center">
-        
-        <h4><u>Today's Agenda</u></h4>
+    <br>
+    <br>
+    <h4><u>Today's Agenda</u></h4>
+    <br>
+    <div class="div1">
+        <span><input type="checkbox">Morning Run</span>
+        <span><input type="checkbox">No Social Media</span>
     </div>
-    <div style="padding-left: 20%;">
-        <div>
-            <span><input type="checkbox"></span>
-            <span>Morning Run</span>
-            <span style="padding-right: 30%;">
-                <span ><input type="checkbox"></span>
-                <span >Cold Shower</span>     
-            </span>
-        </div>
-        <div>
-            <span><input type="checkbox"></span>
-            <span>No Social Media</span>
-            <span style="padding-right: 10%;">
-                <span ><input type="checkbox"></span>
-                <span >30 min Reading</span>
-            </span>
-        </div>
-    </div>
-    
-    <div align="center">
-        <h4>Today, I am thankful for...</h4>
-    </div>
-    <div style="padding-left: 20%;">
-        1.
-        <input type="text">
+    <div class="div2">
+        <span><input type="checkbox">Cold Shower</span>
+        <span><input type="checkbox">30 min  Reading</span>
     </div>
     <br>
-    <div style="padding-left: 20%;">
-        2.
-        <input type="text">
-    </div>
-    <div align="center">
-        <h4>Today's Lessons</h4>
-    </div>
-    <div style="padding-left: 20%;">
-        <form><textarea id="Today's Lessons"></textarea></form>
-    </div>
-    <div style="padding-left: 20%;">
-        <span>One thing I did that sucked:</span>
-        <input type="text">
-    </div>
+    <br>
+    <h4>Today, I am thankful for...</h4>
+    <form>1. <textarea id=""></textarea></form>
+    <form>2. <textarea id=""></textarea></form>
+    <br>
+    <br>
+    <h4>Today's Lessons</h4>
+    <form><textarea id="Today's Lessons"></textarea></form>
+    <br>
+    <br>
+    <span>One thing I did that sucked: <input type="text"></span>
 </body>
 </html>
